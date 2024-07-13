@@ -1,0 +1,7 @@
+<h1>Welcome to Spotify Music Matcher</h1>
+<% if user_signed_in? %>
+  <p>Logged in as <%= current_user.email %></p>
+  <%= link_to 'Logout', destroy_user_session_path, method: :delete %>
+<% else %>
+  <%= link_to 'Login with Spotify', user_spotify_omniauth_authorize_path %>
+<% end %>
