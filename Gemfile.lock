@@ -118,6 +118,8 @@ GEM
       logger
     faraday-net_http (3.1.0)
       net-http
+    ffi (1.17.0-x64-mingw-ucrt)
+    ffi (1.17.0-x86_64-linux-gnu)
     globalid (1.2.1)
       activesupport (>= 6.1)
     hashie (5.0.0)
@@ -318,6 +320,7 @@ DEPENDENCIES
   debug
   devise
   dotenv-rails
+  ffi
   importmap-rails
   jbuilder
   omniauth-spotify
